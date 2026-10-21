@@ -1,0 +1,187 @@
+- generic [active] [ref=e1]:
+  - link "Đến bản đồ" [ref=e2] [cursor=pointer]:
+    - /url: "#map-section"
+  - generic [ref=e3]:
+    - navigation "Điều hướng chính" [ref=e4]:
+      - link "VN Atlas trang chủ" [ref=e5] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e8]: ATLAS
+      - generic [ref=e9]:
+        - link "Bản đồ" [ref=e10] [cursor=pointer]:
+          - /url: "#map-section"
+        - link "Phân tích dữ liệu" [ref=e14] [cursor=pointer]:
+          - /url: "#analysis-section"
+          - generic [ref=e17]: Phân tích
+        - link "Nguồn dữ liệu" [ref=e18] [cursor=pointer]:
+          - /url: "#source-info"
+          - generic [ref=e21]: Dữ liệu
+      - button "Hướng dẫn sử dụng" [ref=e22] [cursor=pointer]:
+        - generic [ref=e25]: Trợ giúp
+      - generic [ref=e26]: VIỆT NAM
+    - generic [ref=e27]:
+      - banner [ref=e28]:
+        - link "VN ATLAS Bản đồ & dữ liệu hành chính" [ref=e29] [cursor=pointer]:
+          - /url: "#"
+          - text: VN
+          - generic [ref=e30]: ATLAS
+          - generic [ref=e32]: Bản đồ & dữ liệu hành chính
+        - generic [ref=e33]:
+          - generic [ref=e34]: 34 tỉnh, thành
+          - button "Chuyển sang giao diện tối" [ref=e37] [cursor=pointer]:
+            - generic [ref=e40]: Chế độ tối
+      - main [ref=e41]:
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - paragraph [ref=e44]: KHÁM PHÁ KHÔNG GIAN DỮ LIỆU
+            - heading "Mỗi vùng đất. Một góc nhìn mới." [level=1] [ref=e47]: Mỗi vùng đất.Một góc nhìn mới.
+            - paragraph [ref=e48]: Kết nối địa lý, con người và những câu chuyện qua từng tọa độ.
+          - generic [ref=e49]:
+            - generic [ref=e50]: VIỆT NAM · KHÔNG GIAN ĐỊA LÝ
+            - link "Khám phá bản đồ" [ref=e53] [cursor=pointer]:
+              - /url: "#map-section"
+            - button "Xuất GeoJSON" [disabled] [ref=e56]
+        - region "Tổng quan tỉnh thành" [ref=e59]:
+          - article [ref=e60]:
+            - generic [ref=e64]:
+              - paragraph [ref=e65]: Đơn vị hành chính
+              - strong [ref=e66]: —
+              - generic [ref=e67]: Đang tải dữ liệu
+          - article [ref=e68]:
+            - generic [ref=e72]:
+              - paragraph [ref=e73]: Dân số trong dữ liệu
+              - strong [ref=e74]: —
+              - generic [ref=e75]: người
+          - article [ref=e76]:
+            - generic [ref=e80]:
+              - paragraph [ref=e81]: Diện tích trong dữ liệu
+              - strong [ref=e82]: —
+              - generic [ref=e83]: km²
+          - article [ref=e84]:
+            - generic [ref=e88]:
+              - paragraph [ref=e89]: Độ phủ ranh giới
+              - strong [ref=e90]: —
+              - generic [ref=e91]: đơn vị có ranh giới
+        - region "Khám phá bản đồ hành chính" [ref=e92]:
+          - generic [ref=e93]:
+            - generic [ref=e98]:
+              - generic [ref=e99]:
+                - heading "Bản đồ hành chính" [level=2] [ref=e100]
+                - generic [ref=e101]: Tương tác trực tiếp
+              - paragraph [ref=e102]: Chọn tỉnh, thành để bắt đầu khám phá
+            - generic [ref=e103]:
+              - button "Danh sách" [expanded] [ref=e104] [cursor=pointer]
+              - button "Thêm so sánh" [disabled] [ref=e108]
+              - button "Vừa khung" [disabled] [ref=e111]
+              - button "Mở rộng bản đồ" [ref=e114] [cursor=pointer]
+          - generic [ref=e117]:
+            - complementary "Tìm đơn vị hành chính" [ref=e118]:
+              - generic [ref=e119]:
+                - generic [ref=e120]: TỈNH / THÀNH PHỐ
+                - combobox "TỈNH / THÀNH PHỐ" [ref=e121] [cursor=pointer]:
+                  - option "An Giang" [selected]
+                  - option "Thành phố Bắc Ninh"
+                  - option "Cà Mau"
+                  - option "Thành phố Cần Thơ"
+                  - option "Cao Bằng"
+                  - option "Thành phố Đà Nẵng"
+                  - option "Đắk Lắk"
+                  - option "Điện Biên Phủ"
+                  - option "Thành phố Đồng Nai"
+                  - option "Đồng Tháp"
+                  - option "Gia Lai"
+                  - option "Thành phố Hà Nội"
+                  - option "Hà Tĩnh"
+                  - option "Thành phố Hải Phòng"
+                  - option "TP. Hồ Chí Minh"
+                  - option "Thành phố Huế"
+                  - option "Hưng Yên"
+                  - option "Khánh Hòa"
+                  - option "Lai Châu"
+                  - option "Lâm Đồng"
+                  - option "Lạng Sơn"
+                  - option "Lào Cai"
+                  - option "Nghệ An"
+                  - option "Ninh Bình"
+                  - option "Phú Thọ"
+                  - option "Quảng Ngãi"
+                  - option "Thành phố Quảng Ninh"
+                  - option "Quảng Trị"
+                  - option "Sơn La"
+                  - option "Tây Ninh"
+                  - option "Thái Nguyên"
+                  - option "Thanh Hóa"
+                  - option "Tuyên Quang"
+                  - option "Vĩnh Long"
+                - generic [ref=e122]:
+                  - searchbox "Tìm tên hoặc mã đơn vị" [disabled] [ref=e125]
+                  - generic [ref=e126]: /
+                - group "Lọc loại đơn vị" [ref=e127]:
+                  - button "Tất cả" [pressed] [ref=e128] [cursor=pointer]
+                  - button "Xã" [ref=e129] [cursor=pointer]
+                  - button "Phường" [ref=e130] [cursor=pointer]
+                  - button "Đặc khu" [ref=e131] [cursor=pointer]
+                - generic [ref=e132]:
+                  - generic [ref=e133]: ĐƠN VỊ HÀNH CHÍNH
+                  - generic [ref=e134]: —
+                - generic [ref=e135]:
+                  - generic [ref=e136]: Sắp xếp danh sách
+                  - combobox "Sắp xếp danh sách" [ref=e137] [cursor=pointer]:
+                    - option "Thứ tự mặc định" [selected]
+                    - 'option "Tên: A → Z"'
+                    - option "Dân số cao nhất"
+                    - option "Diện tích lớn nhất"
+              - paragraph [ref=e139]: Đang chuẩn bị bản đồ…
+              - status [ref=e142]: Đang tải dữ liệu tỉnh, thành…
+            - generic [ref=e143]:
+              - region "Bản đồ tương tác đơn vị hành chính" [ref=e144]:
+                - generic:
+                  - generic [ref=e145]:
+                    - button "Phóng to" [ref=e146] [cursor=pointer]: +
+                    - button "Thu nhỏ" [ref=e147] [cursor=pointer]: −
+                  - generic:
+                    - generic [ref=e148]: 200 km
+                    - generic [ref=e150]:
+                      - link "Leaflet" [ref=e151] [cursor=pointer]:
+                        - /url: https://leafletjs.com
+                      - text: "| ©"
+                      - link "OpenStreetMap" [ref=e156] [cursor=pointer]:
+                        - /url: https://www.openstreetmap.org/copyright
+                      - text: contributors
+              - generic [ref=e157]:
+                - generic [ref=e158]:
+                  - generic [ref=e161]: Tô màu bản đồ theo
+                  - combobox "Tô màu bản đồ theo" [ref=e162] [cursor=pointer]:
+                    - option "Loại đơn vị" [selected]
+                    - option "Dân số"
+                    - option "Diện tích"
+                    - option "Mật độ dân số"
+                - group [ref=e163]:
+                  - generic "Lớp bản đồ" [ref=e164] [cursor=pointer]
+              - generic [ref=e168]:
+                - paragraph [ref=e172]: Đang kết nối những vùng đất…
+                - generic [ref=e173]: Chuẩn bị ranh giới và dữ liệu địa phương
+              - generic "Chú giải bản đồ" [ref=e174]
+              - generic [aria-hidden]: VIỆT NAM · WGS 84
+        - generic [ref=e175]:
+          - generic [ref=e176]:
+            - generic [ref=e181]:
+              - paragraph [ref=e182]: HIỂU HƠN QUA DỮ LIỆU
+              - heading "Nhìn sâu vào từng vùng đất" [level=2] [ref=e183]
+            - group "Chế độ xem dữ liệu" [ref=e184]:
+              - button "Biểu đồ" [pressed] [ref=e185] [cursor=pointer]
+              - button "Bảng dữ liệu" [ref=e188] [cursor=pointer]
+          - generic [ref=e191]:
+            - generic [ref=e192]:
+              - heading "10 đơn vị có dân số cao nhất" [level=3] [ref=e193]
+              - generic [ref=e194]: Chỉ số biểu đồ
+              - combobox "Chỉ số biểu đồ" [ref=e195] [cursor=pointer]:
+                - option "Dân số" [selected]
+                - option "Diện tích (km²)"
+                - option "Mật độ (người/km²)"
+            - img "Biểu đồ thống kê đơn vị hành chính" [ref=e197]
+        - generic [ref=e198]:
+          - generic [ref=e199]:
+            - generic [ref=e200]: VN ATLAS
+            - generic [ref=e203]: Địa lý gần hơn. Dữ liệu rõ hơn.
+          - group [ref=e204]:
+            - generic "Nguồn & ghi chú dữ liệu" [ref=e205] [cursor=pointer]

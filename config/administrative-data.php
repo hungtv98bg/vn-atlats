@@ -1,0 +1,43 @@
+<?php
+
+return [
+    'directory' => storage_path('app/administrative-data'),
+
+    // Đây là danh sách slug cho phép, không nhận tên file tùy ý từ URL.
+    'provinces' => [
+        'an-giang' => 'An Giang',
+        'bac-ninh' => 'Thành phố Bắc Ninh',
+        'ca-mau' => 'Cà Mau',
+        'can-tho' => 'Thành phố Cần Thơ',
+        'cao-bang' => 'Cao Bằng',
+        'da-nang' => 'Thành phố Đà Nẵng',
+        'dak-lak' => 'Đắk Lắk',
+        'dien-bien' => 'Điện Biên Phủ',
+        'dong-nai' => 'Thành phố Đồng Nai',
+        'dong-thap' => 'Đồng Tháp',
+        'gia-lai' => 'Gia Lai',
+        'ha-noi' => 'Thành phố Hà Nội',
+        'ha-tinh' => 'Hà Tĩnh',
+        'hai-phong' => 'Thành phố Hải Phòng',
+        'ho-chi-minh' => 'TP. Hồ Chí Minh',
+        'hue' => 'Thành phố Huế',
+        'hung-yen' => 'Hưng Yên',
+        'khanh-hoa' => 'Khánh Hòa',
+        'lai-chau' => 'Lai Châu',
+        'lam-dong' => 'Lâm Đồng',
+        'lang-son' => 'Lạng Sơn',
+        'lao-cai' => 'Lào Cai',
+        'nghe-an' => 'Nghệ An',
+        'ninh-binh' => 'Ninh Bình',
+        'phu-tho' => 'Phú Thọ',
+        'quang-ngai' => 'Quảng Ngãi',
+        'quang-ninh' => 'Thành phố Quảng Ninh',
+        'quang-tri' => 'Quảng Trị',
+        'son-la' => 'Sơn La',
+        'tay-ninh' => 'Tây Ninh',
+        'thai-nguyen' => 'Thái Nguyên',
+        'thanh-hoa' => 'Thanh Hóa',
+        'tuyen-quang' => 'Tuyên Quang',
+        'vinh-long' => 'Vĩnh Long',
+    ],
+];
